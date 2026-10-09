@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="50" viewBox="0 0 800 50">
+  <defs>
+    <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff" stop-opacity="1"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <mask id="m"><rect width="800" height="50" fill="url(#fade)"/></mask>
+  </defs>
+  <g mask="url(#m)">
+    <path d="M0 18 q25.0 -6 50.0 0 t50.0 0 q25.0 -6 50.0 0 t50.0 0 q25.0 -6 50.0 0 t50.0 0 q25.0 -6 50.0 0 t50.0 0 q25.0 -6 50.0 0 t50.0 0 q25.0 -6 50.0 0 t50.0 0 q25.0 -6 50.0 0 t50.0 0 q25.0 -6 50.0 0 t50.0 0 q25.0 -6 50.0 0 t50.0 0 q25.0 -6 50.0 0 t50.0 0 q25.0 -6 50.0 0 t50.0 0 q25.0 -6 50.0 0 t50.0 0" fill="none" stroke="#1CB5E0" stroke-width="3" stroke-linecap="round" opacity="0.9">
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="-100 0" dur="6s" repeatCount="indefinite"/>
+    </path>
+    <path d="M0 28 q25.0 -5 50.0 0 t50.0 0 q25.0 -5 50.0 0 t50.0 0 q25.0 -5 50.0 0 t50.0 0 q25.0 -5 50.0 0 t50.0 0 q25.0 -5 50.0 0 t50.0 0 q25.0 -5 50.0 0 t50.0 0 q25.0 -5 50.0 0 t50.0 0 q25.0 -5 50.0 0 t50.0 0 q25.0 -5 50.0 0 t50.0 0 q25.0 -5 50.0 0 t50.0 0 q25.0 -5 50.0 0 t50.0 0 q25.0 -5 50.0 0 t50.0 0" fill="none" stroke="#0b6fa4" stroke-width="3" stroke-linecap="round" opacity="0.7">
+      <animateTransform attributeName="transform" type="translate" from="-100 0" to="0 0" dur="9s" repeatCount="indefinite"/>
+    </path>
+    <path d="M0 38 q25.0 -4 50.0 0 t50.0 0 q25.0 -4 50.0 0 t50.0 0 q25.0 -4 50.0 0 t50.0 0 q25.0 -4 50.0 0 t50.0 0 q25.0 -4 50.0 0 t50.0 0 q25.0 -4 50.0 0 t50.0 0 q25.0 -4 50.0 0 t50.0 0 q25.0 -4 50.0 0 t50.0 0 q25.0 -4 50.0 0 t50.0 0 q25.0 -4 50.0 0 t50.0 0 q25.0 -4 50.0 0 t50.0 0 q25.0 -4 50.0 0 t50.0 0" fill="none" stroke="#000851" stroke-width="3" stroke-linecap="round" opacity="0.45">
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="-100 0" dur="12s" repeatCount="indefinite"/>
+    </path>
+    <circle cx="90" cy="48" r="3" fill="none" stroke="#1CB5E0" stroke-opacity="0.7"><animate attributeName="cy" from="50" to="-4" dur="5s" begin="0s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="5s" begin="0s" repeatCount="indefinite"/></circle>
+    <circle cx="210" cy="48" r="2" fill="none" stroke="#1CB5E0" stroke-opacity="0.7"><animate attributeName="cy" from="50" to="-4" dur="6s" begin="1s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="6s" begin="1s" repeatCount="indefinite"/></circle>
+    <circle cx="330" cy="48" r="4" fill="none" stroke="#1CB5E0" stroke-opacity="0.7"><animate attributeName="cy" from="50" to="-4" dur="7s" begin="2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="7s" begin="2s" repeatCount="indefinite"/></circle>
+    <circle cx="470" cy="48" r="2.5" fill="none" stroke="#1CB5E0" stroke-opacity="0.7"><animate attributeName="cy" from="50" to="-4" dur="5.5s" begin="0.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="5.5s" begin="0.5s" repeatCount="indefinite"/></circle>
+    <circle cx="590" cy="48" r="3" fill="none" stroke="#1CB5E0" stroke-opacity="0.7"><animate attributeName="cy" from="50" to="-4" dur="6.5s" begin="3s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="6.5s" begin="3s" repeatCount="indefinite"/></circle>
+    <circle cx="710" cy="48" r="2" fill="none" stroke="#1CB5E0" stroke-opacity="0.7"><animate attributeName="cy" from="50" to="-4" dur="5s" begin="1.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="5s" begin="1.5s" repeatCount="indefinite"/></circle>
+  </g>
+</svg>
