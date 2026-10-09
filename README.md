@@ -5,3 +5,5 @@
 \- 🐡 Software Developer @ SFU Robot Soccer Club (C++, QML, Python), [repo](https://gitlab.com/sfurs)  
 \- 🦈 Previously: Freelance Full Stack Engineer @ Whitebox Coworking (Next.js, FastAPI, MongoDB)  
 \- 📫 [evanchen0609@gmail.com](mailto:evanchen0609@gmail.com) · 🌐 [evanchen.info](https://evanchen.info/) · 🔗 [LinkedIn](https://linkedin.com/in/evandongchen)
+
+![Fish tank](assets/fish-tank.svg)
