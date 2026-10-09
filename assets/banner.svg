@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="200" viewBox="0 0 800 200">
+  <defs>
+    <linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1CB5E0"/>
+      <stop offset="1" stop-color="#000851"/>
+    </linearGradient>
+    <clipPath id="tank"><rect width="800" height="200" rx="14"/></clipPath>
+    <g id="fish">
+      <path d="M0 0 C8 -9 22 -9 30 0 C22 9 8 9 0 0 Z"/>
+      <path d="M-2 0 L-12 -7 L-12 7 Z"/>
+      <circle cx="24" cy="-2" r="1.8" fill="#000851"/>
+    </g>
+  </defs>
+  <g clip-path="url(#tank)">
+    <rect width="800" height="200" fill="url(#water)"/>
+
+    <!-- light rays -->
+    <g fill="#fff" opacity="0.07">
+      <polygon points="120,0 170,0 90,200 40,200"/>
+      <polygon points="420,0 480,0 400,200 340,200"/>
+      <polygon points="680,0 730,0 650,200 600,200"/>
+    </g>
+
+    <!-- seaweed -->
+    <g stroke="#2ecc71" stroke-width="5" stroke-linecap="round" fill="none" opacity="0.8">
+      <path d="M60 200 C50 180 70 165 60 145">
+        <animate attributeName="d" dur="4s" repeatCount="indefinite"
+          values="M60 200 C50 180 70 165 60 145;M60 200 C70 180 50 165 60 145;M60 200 C50 180 70 165 60 145"/>
+      </path>
+      <path d="M75 200 C85 185 65 172 76 155">
+        <animate attributeName="d" dur="5s" repeatCount="indefinite"
+          values="M75 200 C85 185 65 172 76 155;M75 200 C65 185 85 172 76 155;M75 200 C85 185 65 172 76 155"/>
+      </path>
+      <path d="M730 200 C720 180 740 165 730 142">
+        <animate attributeName="d" dur="4.5s" repeatCount="indefinite"
+          values="M730 200 C720 180 740 165 730 142;M730 200 C740 180 720 165 730 142;M730 200 C720 180 740 165 730 142"/>
+      </path>
+    </g>
+
+    <!-- bubbles -->
+    <g fill="none" stroke="#fff" stroke-opacity="0.6">
+      <circle cx="200" cy="200" r="3"><animate attributeName="cy" from="205" to="-10" dur="6s" repeatCount="indefinite"/></circle>
+      <circle cx="330" cy="200" r="2"><animate attributeName="cy" from="205" to="-10" dur="8s" begin="1s" repeatCount="indefinite"/></circle>
+      <circle cx="520" cy="200" r="4"><animate attributeName="cy" from="205" to="-10" dur="7s" begin="2s" repeatCount="indefinite"/></circle>
+      <circle cx="640" cy="200" r="2.5"><animate attributeName="cy" from="205" to="-10" dur="9s" begin="0.5s" repeatCount="indefinite"/></circle>
+    </g>
+
+    <!-- fish: outer group moves, inner group scales/mirrors -->
+    <g fill="#ff9f43"><g><g><use href="#fish"/></g>
+      <animateMotion dur="14s" repeatCount="indefinite" path="M-40 50 C200 20 500 100 840 60"/></g></g>
+    <g fill="#feca57"><g><g transform="scale(0.7)"><use href="#fish"/></g>
+      <animateMotion dur="20s" begin="-6s" repeatCount="indefinite" path="M-40 150 C170 120 350 170 840 140"/></g></g>
+    <g fill="#ff6b81"><g><g transform="scale(-1,1)"><use href="#fish"/></g>
+      <animateMotion dur="17s" begin="-4s" repeatCount="indefinite" path="M840 140 C600 110 300 170 -40 130"/></g></g>
+    <g fill="#a29bfe"><g><g transform="scale(-0.6,0.6)"><use href="#fish"/></g>
+      <animateMotion dur="24s" begin="-10s" repeatCount="indefinite" path="M840 40 C540 70 240 20 -40 90"/></g></g>
+
+    <!-- sand -->
+    <path d="M0 200 L0 188 C150 180 300 192 450 186 C600 180 700 190 800 184 L800 200 Z" fill="#e8d08a" opacity="0.85"/>
+
+    <!-- title -->
+    <g text-anchor="middle" font-family="'Segoe UI',Helvetica,Arial,sans-serif" fill="#fff">
+      <text x="400" y="100" font-size="52" font-weight="700" style="paint-order:stroke" stroke="#000851" stroke-opacity="0.35" stroke-width="3" letter-spacing="1">Evan Chen</text>
+      <text x="400" y="138" font-size="19" opacity="0.92">A little logic, a little magic, a lot of fish</text>
+    </g>
+  </g>
+</svg>
