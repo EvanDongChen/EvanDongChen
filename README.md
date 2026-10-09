@@ -1,4 +1,5 @@
 ![Evan Chen Banner](assets/banner.svg)
+
 \- 🎓 CS student at SFU, expected grad fall 2027  
 \- 💼 Software Engineer Co-op @ OSI Maritime Systems (Python, C++, Full Stack Web Dev)  
 \- 🐡 Software Developer @ SFU Robot Soccer Club (C++, QML, Python), [repo](https://gitlab.com/sfurs)  
